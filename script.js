@@ -10,7 +10,7 @@
             document.querySelectorAll('.proposal-screen').forEach(screen => screen.style.display = 'none');
             document.getElementById(id).style.display = 'block';
             if (id === 'proposal-yes') {
-                document.body.style.backgroundColor = '#ffecf0';
+                document.body.style.backgroundImage = "url('bg-yes.jpg')";
                 confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
             }
         }

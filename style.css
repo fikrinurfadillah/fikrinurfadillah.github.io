@@ -10,7 +10,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #ffe5e5;
+            background: url(./bg.jpg);
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center;
             overflow: hidden;
         }
         .container {
@@ -34,7 +37,7 @@
             margin: 15px 0;
         }
         p {
-            color: #333;
+            color: #fff;
             font-size: 1.3rem;
             margin-bottom: 20px;
         }
